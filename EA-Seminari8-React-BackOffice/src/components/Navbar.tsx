@@ -1,3 +1,4 @@
+// src/components/Navbar.tsx
 import { Link, NavLink } from 'react-router-dom';
 
 export function Navbar() {
@@ -7,10 +8,10 @@ export function Navbar() {
         Backoffice
       </Link>
 
-      {/* NavLink le pone la clase "active" al enlace de la página en la que estoy */}
       <nav>
         <NavLink to="/authors">Autores</NavLink>
         <NavLink to="/books">Libros</NavLink>
+        <NavLink to="/favorites">Favoritos</NavLink>
       </nav>
     </header>
   );
