@@ -1,4 +1,3 @@
-// src/components/FavouriteButton.tsx
 import { useStore } from '@nanostores/react';
 import { favoritesStore, toggleFavorite } from '../stores/favorites';
 

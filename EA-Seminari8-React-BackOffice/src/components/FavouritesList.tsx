@@ -1,4 +1,3 @@
-// src/components/FavouritesList.tsx
 import { useStore } from '@nanostores/react';
 import { Link } from 'react-router-dom';
 import { favoritesStore } from '../stores/favorites';

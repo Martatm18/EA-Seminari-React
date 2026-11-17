@@ -1,4 +1,3 @@
-// src/stores/favorites.ts
 import { atom } from 'nanostores';
 
 const STORAGE_KEY = 'favorite-books';
@@ -24,7 +23,7 @@ favoritesStore.listen((favorites) => {
   }
 });
 
-// Funciones auxiliares para modificar el store de forma limpia
+
 export function toggleFavorite(bookId: string) {
   const current = favoritesStore.get();
   if (current.includes(bookId)) {
