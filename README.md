@@ -1,5 +1,5 @@
 # Enllaç Vídeo Explicació Exercici React Seminari 8: 
-
+https://drive.google.com/file/d/1gR1hgNC29ZSTeDW68dVKIPbUquKZKUVa/view?usp=sharing
 
 # Documentació:
 **1. Referències dels materials consultats**
